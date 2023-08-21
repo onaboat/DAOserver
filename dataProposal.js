@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+// const fetch = require('node-fetch');
 
 const dataProposal = async (previousData = []) => {
   const response = await fetch('https://hub.snapshot.org/graphql', {
